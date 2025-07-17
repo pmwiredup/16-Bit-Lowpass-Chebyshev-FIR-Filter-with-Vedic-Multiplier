@@ -7,6 +7,7 @@ This project implements a **16-tap lowpass equiripple FIR (Finite Impulse Respon
 ### Key Features
 - **16-tap FIR filter** with equiripple response
 - **Sampling frequency**: 1 MHz
+- **Cutoff frequency**: 400kHz
 - **Passband frequency**: 200kHz
 - **Stopband frequency**: 355kHz 
 - **16-bit signed arithmetic** throughout the signal path
