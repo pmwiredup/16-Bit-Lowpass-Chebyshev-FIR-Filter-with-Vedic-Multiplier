@@ -51,7 +51,8 @@ end
 //multiplication part
 genvar i;
 generate
-    for (i = 0; i < 16; i = i + 1) begin : mul_stage
+    for (i = 0; i < 16; i = i + 1) 
+        begin : mul_stage
         vedicmult_16bit vmul(
             .a(tap[i]),
             .b(buff[i]),
