@@ -1,6 +1,6 @@
 // Lowpass (Chebyshev) Equiripple FIR filter
 //Order - 15
-//F_sampling = 100kHz
+//F_sampling = 1MHz
 //F_pass = 200kHz
 //F_stop = 355kHz
 module FIR(
