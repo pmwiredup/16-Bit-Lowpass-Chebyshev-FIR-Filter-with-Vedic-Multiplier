@@ -13,7 +13,6 @@ module FIR(
 // 16-tap FIR filter
 reg signed [15:0] buff [0:15];
 wire signed [31:0] mult_out [0:15];
-wire signed [31:0] acc_tree [0:14]; // For tree-based accumulation
 
 // Filter coefficients (16 taps)
 wire signed [15:0] tap [0:15];
